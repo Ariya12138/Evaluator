@@ -5,8 +5,12 @@
 
 
 数据集格式如下：  
-generated response_file.jsonl
+generated_response_file.jsonl
 ```
 {“sample_id": $sample_id, "predicted_response": str}
 ```
 
+golden_response_file.jsonl
+```
+{“sample_id": $sample_id, "golden_response": str}
+```
