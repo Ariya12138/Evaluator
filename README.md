@@ -50,3 +50,8 @@ golden_response_file.jsonl
 
         return data
 ```
+
+需要允许评测脚本的时候，直接在命令行中执行
+```
+python evaluating.py
+```
